@@ -20,8 +20,8 @@ const MealCard = ({ id, name, country, ingredient, image }) => {
           </div>
 
           <div className="font-light">
-             {ingredient && <p className="truncate">:ingredient</p>}
-             {country && <p className="truncate">: country</p>}
+             {ingredient && <p className="truncate">: {ingredient}</p>}
+             {country && <p className="truncate">: {country}</p>}
           </div>
         </div>
       </div>
