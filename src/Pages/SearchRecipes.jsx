@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import RecipesNavbar from '../Components/RecipesNavbar'
 import MealCard from '../Components/MealCard'
-import { GiForkKnifeSpoon } from 'react-icons/gi'
 import AZButtons from '../Components/AZButtons'
 import Filter from '../Components/Filter'
+import { GiForkKnifeSpoon } from 'react-icons/gi'
 
 
 const SearchRecipes = () => {
